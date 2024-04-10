@@ -1,0 +1,17 @@
+Logic explained
+
+input 
+
+inputFilePath = path to the visitors.txt file
+
+logic 
+
+1. First we read the input file and push the time entries in a vector as a pair (enteringTime, leavingTime)
+2. we call the fuction findMaxVisitors which take the vector as input
+3.  we iterate through the map and we convert the inpput time and output time into minutes
+4. in the same loop we  have another for loop where we enter for every minute the number of people in the musume
+5. now we have a map of all the minutes and number of visitors in that minute
+6 . We then find out the max visitors fro that map
+7. now we generate a vector for the minutes for the max visitors
+8. in that vector the max and min correspond to the max time and min time .
+9 we retur them as a pair .
